@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <div class="container">
+    <div id="container">
         <svg id="progressBarContainer" width="144" height="300">
 
             <defs>
@@ -275,19 +275,18 @@
         }
 
         var options = {
-  "animate": true,
-  "patternWidth": 100,
-  "patternHeight": 100,
-  "grainOpacity": 0.05,
-  "grainDensity": 1,
-  "grainWidth": 1,
-  "grainHeight": 1
-}
-grained("#elementId", options);
+            "animate": true,
+            "patternWidth": 100,
+            "patternHeight": 100,
+            "grainOpacity": 0.05,
+            "grainDensity": 1,
+            "grainWidth": 1,
+            "grainHeight": 1
+        }
+        grained("#container", options);
 
-/*
-background-color :rgb(0, 0, 0)
-*/
+
+
     </script>
 </body>
 

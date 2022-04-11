@@ -1,11 +1,18 @@
 body{
-    background-color: #009788;
+    background-color :rgb(0, 0, 0);
     font-family: "Raleway", sans-serif;
     text-align: center;
+    padding: 0;
+    width: auto;
+    height: auto;
 }
 
-.container{
-    width: 100%;
+#container{
+    background-color :rgb(0, 0, 0);
+    margin: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
 }
 
 p{
